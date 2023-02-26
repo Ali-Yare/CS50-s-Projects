@@ -1,0 +1,128 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(85, 83, 83);
+}
+ .navbar{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navbar-item{
+ margin: 13px;
+ 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.ceneter-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.6rem;
+}
+.rounded{
+    display: flex;
+    margin: 0 auto;
+    border-radius: 24px;
+    height: 44px;
+    border: 1px solid rgb(223, 225, 229);
+    width: 400px;
+    box-shadow: none;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+
+}
+.submit-btn{
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.text-btn{
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.advanced{
+    color: red;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+.line{
+    border: 1px solid rgba(119, 136, 153, 0.136);
+}
+
+/* advance page styling */
+.p-advanced{
+    font-size: 16px;
+    color: #333;
+
+}
+.advanced-div{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.left{
+    width: 200px;
+    font-size: 13px;
+}
+
+.right-input{
+    width: 300px;
+    height: 25px;
+    border: 1px solid lightgray;
+    /* border-radius: 6px; */
+}
+.advance-search-btn{
+    background-color: #4d90fe;
+    color: #fff;
+    border: none;
+    /* height: 35px; */
+    padding: 10px;
+    border-radius: 6px;
+}
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    width: 535px;
+    margin-top: 10px;   
+}
+
+
